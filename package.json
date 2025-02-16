@@ -1,0 +1,14 @@
+{
+  "name": "nextjs-nginx-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3000 -H 0.0.0.0"
+  },
+  "dependencies": {
+    "next": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+} 
