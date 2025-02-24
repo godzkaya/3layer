@@ -11,6 +11,8 @@ RUN dotnet publish -o out
 FROM --platform=linux/arm64 mcr.microsoft.com/dotnet/aspnet:8.0-alpine
  
 WORKDIR /app
+
+USER 1000
  
 COPY --from=builder /app/out .
  
