@@ -18,4 +18,5 @@ COPY --from=builder /app/out .
  
 ENTRYPOINT ["./backend"]
 
-#https://edu.chainguard.dev/software-security/selecting-a-base-image/
+# https://images.chainguard.dev/
+# https://edu.chainguard.dev/software-security/selecting-a-base-image/
